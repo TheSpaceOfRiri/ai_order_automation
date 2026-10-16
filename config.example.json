@@ -1,0 +1,25 @@
+{
+  "website": {
+    "base_url": "https://editionbreezy.com/",
+    "login_url": "https://editionbreezy.com/admin/login",
+    "requires_login": true,
+    "username": "YOUR_USERNAME_HERE",
+    "password": "YOUR_PASSWORD_HERE"
+  },
+  "business_rules": {
+    "price_per_piece": 350,
+    "default_payment": "COD",
+    "messenger_marker": "(messenger)",
+    "bill_note_template": "({amount} takar bill hobe)"
+  },
+  "pdf": {
+    "use_ocr": false,
+    "ocr_lang": "ben+eng"
+  },
+  "automation": {
+    "headless": false,
+    "slow_mo_ms": 150,
+    "page_timeout_ms": 30000,
+    "retry_per_order": 1
+  }
+}

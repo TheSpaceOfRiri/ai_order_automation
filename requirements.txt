@@ -1,0 +1,12 @@
+# AI Order Automation Assistant - Python dependencies
+PyQt6==6.7.1
+pdfplumber==0.11.4
+pandas==2.2.2
+playwright==1.47.0
+# Playwright browsers must be installed after pip install:
+#   playwright install chromium
+
+# OPTIONAL — only if you enable OCR for correct Bengali (config: pdf.use_ocr)
+# pytesseract==0.3.13
+# pdf2image==1.17.0
+# System packages also required: tesseract-ocr, tesseract-ocr-ben, poppler-utils
